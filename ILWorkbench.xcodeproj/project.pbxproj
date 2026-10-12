@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2B3C4D5E6F000000000201 /* ILWorkbenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000101 /* ILWorkbenchApp.swift */; };
+		1A2B3C4D5E6F000000000202 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000102 /* Models.swift */; };
+		1A2B3C4D5E6F000000000203 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000103 /* HelperClient.swift */; };
+		1A2B3C4D5E6F000000000204 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000104 /* AppModel.swift */; };
+		1A2B3C4D5E6F000000000205 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000105 /* ContentView.swift */; };
+		1A2B3C4D5E6F000000000206 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000106 /* CodeTextView.swift */; };
+		1A2B3C4D5E6F000000000207 /* SelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000107 /* SelfTest.swift */; };
+		1A2B3C4D5E6F000000000208 /* SyntaxHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000108 /* SyntaxHighlighter.swift */; };
+		1A2B3C4D5E6F000000000209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F000000000109 /* Assets.xcassets */; };
+		1A2B3C4D5E6F00000000020A /* AssemblyOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F00000000010A /* AssemblyOutlineView.swift */; };
+		1A2B3C4D5E6F00000000020B /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F00000000010B /* Localization.swift */; };
+		1A2B3C4D5E6F00000000020C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B3C4D5E6F00000000010C /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2B3C4D5E6F000000000101 /* ILWorkbenchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILWorkbenchApp.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000102 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000103 /* HelperClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClient.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000104 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000105 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000106 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000107 /* SelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfTest.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000108 /* SyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighter.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2B3C4D5E6F00000000010A /* AssemblyOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyOutlineView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F00000000010B /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F00000000010C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1A2B3C4D5E6F000000000301 /* ILWorkbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILWorkbench.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2B3C4D5E6F000000000502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2B3C4D5E6F000000000401 = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4D5E6F000000000402 /* ILWorkbench */,
+				1A2B3C4D5E6F000000000403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2B3C4D5E6F000000000402 /* ILWorkbench */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4D5E6F000000000101 /* ILWorkbenchApp.swift */,
+				1A2B3C4D5E6F000000000104 /* AppModel.swift */,
+				1A2B3C4D5E6F000000000105 /* ContentView.swift */,
+				1A2B3C4D5E6F000000000106 /* CodeTextView.swift */,
+				1A2B3C4D5E6F000000000103 /* HelperClient.swift */,
+				1A2B3C4D5E6F000000000102 /* Models.swift */,
+				1A2B3C4D5E6F000000000107 /* SelfTest.swift */,
+				1A2B3C4D5E6F000000000108 /* SyntaxHighlighter.swift */,
+				1A2B3C4D5E6F000000000109 /* Assets.xcassets */,
+				1A2B3C4D5E6F00000000010A /* AssemblyOutlineView.swift */,
+				1A2B3C4D5E6F00000000010B /* Localization.swift */,
+				1A2B3C4D5E6F00000000010C /* SettingsView.swift */,
+			);
+			path = ILWorkbench;
+			sourceTree = "<group>";
+		};
+		1A2B3C4D5E6F000000000403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B3C4D5E6F000000000301 /* ILWorkbench.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2B3C4D5E6F000000000601 /* ILWorkbench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2B3C4D5E6F000000000802 /* Build configuration list for PBXNativeTarget "ILWorkbench" */;
+			buildPhases = (
+				1A2B3C4D5E6F000000000501 /* Sources */,
+				1A2B3C4D5E6F000000000502 /* Frameworks */,
+				1A2B3C4D5E6F000000000503 /* Resources */,
+				1A2B3C4D5E6F000000000504 /* Bundle .NET helper */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILWorkbench;
+			productName = ILWorkbench;
+			productReference = 1A2B3C4D5E6F000000000301 /* ILWorkbench.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2B3C4D5E6F000000000701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1A2B3C4D5E6F000000000601 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1A2B3C4D5E6F000000000801 /* Build configuration list for PBXProject "ILWorkbench" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2B3C4D5E6F000000000401;
+			productRefGroup = 1A2B3C4D5E6F000000000403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2B3C4D5E6F000000000601 /* ILWorkbench */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2B3C4D5E6F000000000503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B3C4D5E6F000000000209 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A2B3C4D5E6F000000000504 /* Bundle .NET helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle .NET helper";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/Scripts/bundle-helper.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2B3C4D5E6F000000000501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B3C4D5E6F000000000201 /* ILWorkbenchApp.swift in Sources */,
+				1A2B3C4D5E6F000000000202 /* Models.swift in Sources */,
+				1A2B3C4D5E6F000000000203 /* HelperClient.swift in Sources */,
+				1A2B3C4D5E6F000000000204 /* AppModel.swift in Sources */,
+				1A2B3C4D5E6F000000000205 /* ContentView.swift in Sources */,
+				1A2B3C4D5E6F000000000206 /* CodeTextView.swift in Sources */,
+				1A2B3C4D5E6F000000000207 /* SelfTest.swift in Sources */,
+				1A2B3C4D5E6F000000000208 /* SyntaxHighlighter.swift in Sources */,
+				1A2B3C4D5E6F00000000020A /* AssemblyOutlineView.swift in Sources */,
+				1A2B3C4D5E6F00000000020B /* Localization.swift in Sources */,
+				1A2B3C4D5E6F00000000020C /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A2B3C4D5E6F000000000901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A2B3C4D5E6F000000000902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1A2B3C4D5E6F000000000903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ILWorkbench;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ilworkbench;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A2B3C4D5E6F000000000904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ILWorkbench;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.ilworkbench;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2B3C4D5E6F000000000801 /* Build configuration list for PBXProject "ILWorkbench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B3C4D5E6F000000000901 /* Debug */,
+				1A2B3C4D5E6F000000000902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2B3C4D5E6F000000000802 /* Build configuration list for PBXNativeTarget "ILWorkbench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B3C4D5E6F000000000903 /* Debug */,
+				1A2B3C4D5E6F000000000904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2B3C4D5E6F000000000701 /* Project object */;
+}

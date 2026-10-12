@@ -1,0 +1,20 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+
+# .NET build output
+Helper/bin/
+Helper/obj/
+Helper/publish/
+Samples/*/bin/
+Samples/*/obj/
+
+# Release artifacts (the DMG is uploaded to GitHub Releases, not committed)
+dist/
+*.dmg
+
+# Raw screenshots before composition
+build/promo-raw/
